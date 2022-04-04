@@ -7,6 +7,8 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 const client = new ApolloClient({
   uri: "https://server-cat-heroku.herokuapp.com/",
   cache: new InMemoryCache(),
+
+  ab check kr 
 });
 ReactDOM.render(
   <ApolloProvider client={client}>
